@@ -27,7 +27,7 @@ public class CruddemoApplication {
 			//createStudent(studentDAO); we passed int the DAO inside the createMultipleStudents() method
 			//this is our own custom code for interaction with the database
 
-			//createMultipleStudents(studentDAO);
+			createMultipleStudents(studentDAO);
 			
 			//readStudent(studentDAO);
 			
@@ -35,7 +35,7 @@ public class CruddemoApplication {
 
 			//queryForStudentsByLastName(studentDAO);
 
-			updateStudent(studentDAO);
+			//updateStudent(studentDAO);
 		};
 	}//end of commandlinerunner
 
