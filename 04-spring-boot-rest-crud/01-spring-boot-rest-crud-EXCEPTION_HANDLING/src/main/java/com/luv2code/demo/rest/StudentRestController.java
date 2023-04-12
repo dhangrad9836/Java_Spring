@@ -43,7 +43,7 @@ public class StudentRestController {
         return theStudents;
     }//end getStudents()
 
-    //define endpoint with mapping for a single student and using the {studentId}
+    //define endpoint with mapping for returning a single student and using the {studentId}
     @GetMapping("/students/{studentId}")
     public Student getStudent(@PathVariable int studentId){
 
